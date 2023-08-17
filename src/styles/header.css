@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.header th.first-column {
+  flex: 0 0 10%; 
+  margin-left: 15px;
+  text-align: left;
+  color: #BDBDBD;
+}
+.header th.column {
+  margin-left: 10px;
+  flex: 1;
+  text-align: left;
+}
+
+
+@media (min-width: 768px) { 
+  .header th.first-column {
+    flex: 0 0 10%; 
+    margin-left: 25px;
+    text-align: left;
+    color: #BDBDBD;
+  }
+  .header th.column {
+    margin-left: 0px;
+    flex: 1;
+    text-align: left;
+  }
+}

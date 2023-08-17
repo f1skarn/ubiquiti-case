@@ -1,0 +1,39 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  border-collapse: collapse;
+  margin-top: 4px;
+}
+  
+  .table ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .table li {
+      list-style: none;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0px 20px;
+  }
+
+  .headerGrid {
+    margin: 0px 40px 0px 40px;
+  }
+
+  @media (min-width: 768px) { 
+    .table {
+      display: flex;
+      flex-direction: column;
+      border-collapse: collapse;
+      margin-top: 4px;
+      margin: 0px 40px 0px 40px;
+    }
+    .grid-container {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }

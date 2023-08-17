@@ -1,0 +1,31 @@
+.topbar {
+    background-color: #f6f6f8; 
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+  align-items: center;
+  }
+
+  
+  .topbar img {
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  .topbar h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  .topbar h4 {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+    text-align: right;
+  }
+  
+  
+  

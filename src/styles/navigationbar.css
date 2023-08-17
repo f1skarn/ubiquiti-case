@@ -1,0 +1,30 @@
+.navigationbar-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navigationbar {
+  display: flex;
+  background-color: #FFFFFF;
+  height: 50px;
+  width: 100%;
+  border-bottom: 0.5px solid #ccc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.back-button {
+  font-size: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.product-name {
+  flex-grow: 1;
+  margin: 0 auto;
+  margin-right: 18px;
+}

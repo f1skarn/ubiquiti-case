@@ -1,0 +1,42 @@
+
+.list-item:hover {
+  background-color: #f0f0f0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.list-item td.first-column {
+  flex: 0 0 10%;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.list-item td.column {
+  margin-left: 10px;
+  flex: 1;
+  text-align: left;
+}
+
+.list-item.first-item {
+  border-top: 1px solid #ccc;
+}
+
+
+@media (min-width: 768px) { 
+  .list-item td.first-column {
+    flex: 0 0 10%;
+    margin-left: 25px;
+    text-align: left;
+  }
+  .list-item td.column {
+    margin-left: 0px;
+    flex: 1;
+    text-align: left;
+  }
+}
